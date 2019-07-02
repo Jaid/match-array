@@ -8,6 +8,15 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 const {default: matchArray} = indexModule
 
 it("should run", () => {
-  const result = matchArray()
-  expect(result).toBeGreaterThan(1549410770)
+  const result = matchArray(/start +(?<id>[A-Za-z]+)(-(?<suffixNumber>\d+))? +end/g, " start  word  end\nstart no match here end\nstart nextword-2 end")
+  expect(result).toMatchObject([
+    {
+      id: "word",
+      suffixNumber: null,
+    },
+    {
+      id: "nextword",
+      suffixNumber: "2",
+    },
+  ])
 })
