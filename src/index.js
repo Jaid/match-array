@@ -6,10 +6,19 @@ import hasContent from "has-content"
  * Returns all matches of given named groups from a RegEx expression
  * @example
  * import matchArray from "match-array"
- * const result = matchArray()
- * result === 1549410770
+ * const result = matchArray(/start +(?<id>[A-Za-z]+)(-(?<suffixNumber>\d+))? +end/g, " start  word  end\nstart no match here end\nstart nextword-2 end")
+ * result === [
+ *   {
+ *     id: "word",
+ *     suffixNumber: null,
+ *   },
+ *   {
+ *     id: "nextword",
+ *     suffixNumber: "2",
+ *   },
+ * ]
  * @function
- * @param {string|Regexp} regexExpression
+ * @param {Regexp} regexExpression
  * @param {string} targetString
  * @returns {Object[]}
  */
