@@ -36,24 +36,6 @@ yarn add match-array@^1.0.0
 ```
 
 
-## Try it out
-
-
-
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type", "text/javascript");
-scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/match-array@1.0.0/index.js");
-document.querySelector("head").appendChild(scriptElement);
-```
-
-match-array is now stored in the global variable `matchArray`. The following console expression should return something other than `"undefined"`.
-
-```javascript
-typeof matchArray.default
-```
 
 
 
