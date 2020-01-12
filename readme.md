@@ -1,60 +1,82 @@
 # match-array
 
 
-Returns an array of all found named groups matched with given RegExp and string.
+<a href="https://raw.githubusercontent.com/Jaid/match-array/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/match-array?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/match-array/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fmatch-array%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/match-array/commits"><img src="https://img.shields.io/github/commits-since/Jaid/match-array/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/match-array/commits"><img src="https://img.shields.io/github/last-commit/Jaid/match-array?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/match-array/issues"><img src="https://img.shields.io/github/issues/Jaid/match-array?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/match-array"><img src="https://img.shields.io/npm/v/match-array?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/match-array/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/match-array?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/match-array"><img src="https://img.shields.io/npm/dm/match-array?style=flat-square&logo=npm" alt="Downloads"/></a>
+
+**Returns an array of all found named groups matched with given RegExp and string.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
-<a href='https://npmjs.com/package/match-array'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
+<a href="https://npmjs.com/package/match-array"><img src="https://img.shields.io/badge/npm-match--array-C23039?style=flat-square&logo=npm" alt="match-array on npm"/></a>
 ```bash
 npm install --save match-array@^1.0.0
 ```
-<a href='https://yarnpkg.com/package/match-array'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
+<a href="https://yarnpkg.com/package/match-array"><img src="https://img.shields.io/badge/Yarn-match--array-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="match-array on Yarn"/></a>
 ```bash
 yarn add match-array@^1.0.0
+```
+<a href="https://jsdelivr.com/package/npm/match-array/"><img src="https://img.shields.io/badge/jsDelivr-match--array-orange?style=flat-square&logo=html5&logoColor=white" alt="match-array on jsDelivr"/></a> <a href="https://unpkg.com/browse/match-array/"><img src="https://img.shields.io/badge/UNPKG-match--array-orange?style=flat-square&logo=html5&logoColor=white" alt="match-array on UNPKG"/></a>
+```html
+<script src="https://cdn.jsdelivr.net/npm/match-array@1.0.0/index.js"/>
 ```
 
 
 ## Try it out
-<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/browser.png'/>
+
+
+
 Open a browser's JavaScript console and execute:
 
 ```javascript
 const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/match-array@1.0.0");
+scriptElement.setAttribute("type", "text/javascript");
+scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/match-array@1.0.0/index.js");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
-This module is now loaded in a variable that can be accessed in any scope.
+match-array is now stored in the global variable `matchArray`. The following console expression should return something other than `"undefined"`.
 
 ```javascript
 typeof matchArray.default
 ```
 
-## Documentation
-Returns all matches of given named groups from a RegEx expression
 
-**Kind**: Exported function  
 
-| Param | Type |
-| --- | --- |
-| regexExpression | <code>Regexp</code> | 
-| targetString | <code>string</code> | 
 
-**Example**  
-```javascript
-import matchArray from "match-array"
-const result = matchArray(/start +(?<id>[A-Za-z]+)(-(?<suffixNumber>\d+))? +end/g, " start  word  end\nstart no match here end\nstart nextword-2 end")
-result === [
-  {
-    id: "word",
-    suffixNumber: null,
-  },
-  {
-    id: "nextword",
-    suffixNumber: "2",
-  },
-]
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/match-array.git
+cd match-array
+npm install
+```
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
 ```
 
 
@@ -62,7 +84,7 @@ result === [
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
