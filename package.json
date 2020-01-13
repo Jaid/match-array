@@ -33,5 +33,9 @@
   },
   "name": "match-array",
   "description": "Returns an array of all found named groups matched with given RegExp and string.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/match-array"
+  }
 }
