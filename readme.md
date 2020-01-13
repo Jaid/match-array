@@ -1,9 +1,9 @@
 # match-array
 
 
-<a href="https://raw.githubusercontent.com/Jaid/match-array/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/match-array?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/match-array/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fmatch-array%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/match-array/commits"><img src="https://img.shields.io/github/commits-since/Jaid/match-array/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/match-array/commits"><img src="https://img.shields.io/github/last-commit/Jaid/match-array?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/match-array/issues"><img src="https://img.shields.io/github/issues/Jaid/match-array?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/match-array"><img src="https://img.shields.io/npm/v/match-array?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/match-array/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/match-array?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/match-array"><img src="https://img.shields.io/npm/dm/match-array?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/match-array/master/license.txt"><img src="https://img.shields.io/github/license/jaid/match-array?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor match-array"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/match-array/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fmatch-array%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/match-array/commits"><img src="https://img.shields.io/github/commits-since/jaid/match-array/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/jaid/match-array/commits"><img src="https://img.shields.io/github/last-commit/jaid/match-array?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/match-array/issues"><img src="https://img.shields.io/github/issues/jaid/match-array?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/match-array"><img src="https://img.shields.io/npm/v/match-array?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/match-array/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/match-array?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/match-array"><img src="https://img.shields.io/npm/dm/match-array?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Returns an array of all found named groups matched with given RegExp and string.**
 
@@ -41,14 +41,13 @@ yarn add match-array@^1.0.0
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/match-array.git
+git clone git@github.com:jaid/match-array.git
 cd match-array
 npm install
 ```
