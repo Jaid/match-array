@@ -38,5 +38,19 @@
     "url": "https://github.com/jaid/match-array"
   },
   "homepage": "https://github.com/Jaid/match-array",
-  "keywords": []
+  "keywords": [
+    "array",
+    "library",
+    "match",
+    "node",
+    "node-js",
+    "regex",
+    "regexp",
+    "regular-expression",
+    "regular-expressions",
+    "string",
+    "strings",
+    "util",
+    "utility"
+  ]
 }
